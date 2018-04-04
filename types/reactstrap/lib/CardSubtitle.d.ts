@@ -4,6 +4,7 @@ export interface CardSubtitleProps extends React.HTMLAttributes<HTMLElement> {
   tag?: React.ReactType;
   className?: string;
   cssModule?: CSSModule;
+  [key: string]: any;
 }
 
 declare const CardSubtitle: React.StatelessComponent<CardSubtitleProps>;

@@ -14,6 +14,7 @@ export interface CarouselItemProps extends React.HTMLProps<HTMLElement>, Transit
     in?: boolean;
     cssModule?: CSSModule;
     slide?: boolean;
+    [key: string]: any;
 }
 
 declare const CarouselItem: React.StatelessComponent<CarouselItemProps>;

@@ -15,6 +15,7 @@ export interface FadeProps extends React.HTMLAttributes<HTMLElement> {
   transitionLeave?: boolean;
   onLeave?: () => void;
   onEnter?: () => void;
+  [key: string]: any;
 }
 
 declare const Fade: React.StatelessComponent<FadeProps>;

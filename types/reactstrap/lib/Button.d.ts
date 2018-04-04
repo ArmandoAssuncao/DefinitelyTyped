@@ -15,6 +15,7 @@ export interface ButtonProps extends React.HTMLProps<HTMLButtonElement> {
   style?: React.CSSProperties;
 
   cssModule?: CSSModule;
+  [key: string]: any;
 }
 
 declare const Button: React.StatelessComponent<ButtonProps>;

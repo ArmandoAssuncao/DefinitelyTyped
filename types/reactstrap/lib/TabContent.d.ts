@@ -5,6 +5,7 @@ export interface TabContentProps extends React.HTMLAttributes<HTMLElement> {
   activeTab?: number | string;
   className?: string;
   cssModule?: CSSModule;
+  [key: string]: any;
 }
 
 declare const TabContent: React.StatelessComponent<TabContentProps>;

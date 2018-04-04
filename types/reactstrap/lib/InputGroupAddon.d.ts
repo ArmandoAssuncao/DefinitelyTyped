@@ -5,6 +5,7 @@ export interface InputGroupAddonProps extends React.HTMLAttributes<HTMLElement> 
   className?: string;
   cssModule?: CSSModule;
   addonType: 'prepend' | 'append';
+  [key: string]: any;
 }
 
 declare const InputGroupAddon: React.StatelessComponent<InputGroupAddonProps>;

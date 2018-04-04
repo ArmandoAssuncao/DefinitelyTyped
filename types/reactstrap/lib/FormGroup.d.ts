@@ -8,6 +8,7 @@ export interface FormGroupProps extends React.HTMLProps<HTMLDivElement> {
   color?: string;
   className?: string;
   cssModule?: CSSModule;
+  [key: string]: any;
 }
 
 declare const FormGroup: React.StatelessComponent<FormGroupProps>;

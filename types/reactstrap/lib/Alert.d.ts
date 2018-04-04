@@ -8,6 +8,7 @@ export interface UncontrolledProps extends React.HTMLAttributes<HTMLElement> {
   transitionAppearTimeout?: number;
   transitionEnterTimeout?: number;
   transitionLeaveTimeout?: number;
+  [key: string]: any;
 }
 export interface UncontrolledAlertProps extends UncontrolledProps {
   /* intentionally blank */

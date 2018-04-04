@@ -5,6 +5,7 @@ export interface InputGroupProps extends React.HTMLAttributes<HTMLElement> {
   size?: string;
   className?: string;
   cssModule?: CSSModule;
+  [key: string]: any;
 }
 
 declare const InputGroup: React.StatelessComponent<InputGroupProps>;

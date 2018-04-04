@@ -14,6 +14,7 @@ export interface NavbarProps extends React.HTMLAttributes<HTMLElement> {
   cssModule?: CSSModule;
   toggleable?: boolean | string;
   expand?: boolean | string;
+  [key: string]: any;
 }
 
 declare const Navbar: React.StatelessComponent<NavbarProps>;
